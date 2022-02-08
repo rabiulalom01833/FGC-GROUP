@@ -1,0 +1,128 @@
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .single_service {
+         height: 180px;
+     }
+     .logo_here img {
+        width: 80%;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     .banner_img img {
+         width: 100%;
+     }
+
+     .banner_details {
+         padding: 20px 0;
+     }
+ }
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 320px) and (max-width: 767.98px) {
+
+    .header_area {
+        margin-top: 0;
+    }
+
+     .img_1 {
+         background: #0c0c0c;
+         width: 230px;
+         height: 230px;
+         border-radius: 100%;
+         overflow: hidden;
+         float: unset;
+         margin: 0 auto;
+     }
+
+     .img_2 {
+         width: 100%;
+         float: unset;
+         margin: 0px 0 20px 0;
+     }
+
+     .img_2 img {
+         width: 100%;
+     }
+
+     .header_area .row .col-lg-6 {
+         margin-left: -8px;
+     }
+
+     .img_1 img {
+         width: 114%;
+     }
+
+     .logo_here {
+         width: 200px;
+         margin: 0 auto;
+         margin-bottom: 30px;
+     }
+
+     .logo_here img {
+         width: 100%;
+     }
+
+     .header_area .row .col-lg-6 {
+         position: unset;
+     }
+
+     .banner_img img {
+         width: 100%;
+     }
+
+     .banner_details {
+         padding: 20px 0;
+     }
+
+     .banner_details h2 {
+         font-size: 24px;
+     }
+
+     .banner_details h3 {
+         font-size: 20px;
+     }
+
+     .banner_details h1 {
+         font-size: 28px;
+         line-height: 30px;
+     }
+
+     .section_title h2 {
+         font-size: 25px;
+     }
+
+     .service_img {
+         width: 200px;
+         float: unset;
+     }
+
+     .service_details {
+         width: 100%;
+         margin: 15px auto;
+     }
+
+     .single_service {
+         display: unset;
+     }
+
+     .footer_menu ul li {
+         display: block;
+         width: 100%;
+     }
+
+     .footer_menu ul li a {
+         border: 0;
+     }
+
+     .facegroup a {
+         font-size: 22px;
+     }
+
+     .footer_menu ul {
+        padding-left: 0 !important;
+    }
+ }
